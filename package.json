@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "SmartShop – Knowledge Graph-Based Product Recommendation System (Transforming Information into Intelligent Solutions)",
   "scripts": {
-    "build": "npm install --prefix server && npm install --prefix client && npm run build --prefix client",
+    "build": "npm install --prefix server && npm install --prefix client --include=dev && npm run build --prefix client",
     "start": "node server/src/server.js",
     "install:server": "npm install --prefix server",
-    "install:client": "npm install --prefix client",
+    "install:client": "npm install --prefix client --include=dev",
     "build:client": "npm run build --prefix client",
     "start:server": "node server/src/server.js",
     "start:client": "npm run dev --prefix client",
