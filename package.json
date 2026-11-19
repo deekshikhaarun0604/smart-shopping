@@ -1,0 +1,22 @@
+{
+  "name": "smartshop-knowledge-graph",
+  "version": "1.0.0",
+  "description": "SmartShop – Knowledge Graph-Based Product Recommendation System (Transforming Information into Intelligent Solutions)",
+  "scripts": {
+    "start:server": "cd server && node src/server.js",
+    "start:client": "cd client && npm.cmd run dev",
+    "start:db": "mongod --dbpath ./data/db --port 27017 --bind_ip 127.0.0.1",
+    "seed": "cd server && node src/seeds/seed.js",
+    "build:client": "cd client && npm.cmd run build"
+  },
+  "keywords": [
+    "knowledge-graph",
+    "recommendation-system",
+    "college-project",
+    "react-flow",
+    "express",
+    "mongodb"
+  ],
+  "author": "SmartShop Intelligence Team",
+  "license": "MIT"
+}
